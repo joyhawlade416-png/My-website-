@@ -1,0 +1,13 @@
+/*
+Theme Name: QuickDeal Child
+Template: flatsome
+Version: 1.0
+*/
+:root{
+  --qd-primary: #0d6efd; /* blue */
+  --qd-accent: #ffffff;  /* white */
+  --qd-dark: #000000;    /* black */
+}
+body{ font-family: 'Open Sans', sans-serif; color:var(--qd-dark); background:var(--qd-accent); }
+.qd-header{ background:var(--qd-primary); color:var(--qd-accent); padding:12px 18px; }
+.qd-btn{ background:var(--qd-dark); color:var(--qd-accent); padding:10px 14px; border-radius:6px; }
